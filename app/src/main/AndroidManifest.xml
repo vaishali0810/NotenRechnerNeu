@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Fachnoten" />
-        <activity android:name=".Notensettings"></activity>
+        <activity android:name=".NotenSettings"></activity>
     </application>
 
 </manifest>
