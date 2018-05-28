@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Fachnoten">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pinwandohnerand"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pinnwandvertikal" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="59dp"
@@ -14,6 +25,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorAccent"
         android:text="Fach"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,6 +43,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/karteikartegelbkarriert"
+        android:backgroundTint="@color/colorAccent"
         android:ems="10"
         android:inputType="text|numberDecimal"
         android:text="Notenschnitt"
@@ -48,6 +63,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/Karteweiss"
         android:ems="10"
         android:inputType="text|textLongMessage|textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -113,6 +129,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="@android:color/background_light"
         android:text="+"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -120,4 +137,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.982" />
+
+
 </android.support.constraint.ConstraintLayout>
