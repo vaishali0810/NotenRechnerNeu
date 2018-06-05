@@ -1,0 +1,16 @@
+Index: app/src/main/res/layout/activity_noten_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_noten_settings.xml	(date 1527756255000)
++++ app/src/main/res/layout/activity_noten_settings.xml	(date 1528220522119)
+@@ -37,7 +37,7 @@
+         app:layout_constraintHorizontal_bias="1.0"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+-        app:layout_constraintVertical_bias="0.173" />
++        app:layout_constraintVertical_bias="0.17" />
+ 
+     <Button
+         android:id="@+id/button18"
